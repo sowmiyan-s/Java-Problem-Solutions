@@ -30,5 +30,5 @@ This repository contains:
 
 ---
 
-> Built with 💻 under [Bound By Code](https://github.com/sowmiyan-s)  
+> Built with 💻 under [Bound By Code]([https://github.com/sowmiyan-s](https://www.instagram.com/bound_by_code))  
 > All solutions are written, tested, and committed by me.

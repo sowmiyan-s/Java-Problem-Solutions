@@ -1,4 +1,4 @@
-public class notempswap {
+public class swap_without_temp {
     public static void main(String[] args) {
 
         /* 

@@ -1,8 +1,8 @@
 import java.util.*;
-public class fibonacci {
+public class fibonaci {
 
     public static void main(String[] args) {
-        Scanner s = new Scanner(System.in);
+        try(Scanner s = new Scanner(System.in);){
         int count = s.nextInt();
         int a = 0;
         int b = 1;
@@ -16,7 +16,7 @@ public class fibonacci {
         }
         System.out.println();
         
-
+    }
     }
     
 }

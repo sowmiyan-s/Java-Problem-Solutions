@@ -11,9 +11,10 @@ public class prime {
             else
             return false;
 
-    }
-    
+    }  
 
+
+    
     public static void main(String[] args) {
 
 

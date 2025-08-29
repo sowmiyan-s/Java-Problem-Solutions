@@ -4,11 +4,7 @@ public class prime {
     static boolean IsPrime(int num){
         int count = 2;
         for(int i=2;i<=num/2;i++){
-                if(i%2==0){
-                    count++;
-
-                }
-            }
+            if(i%2==0){count++;}}
 
             if(count==2 && num!=1)
             return true;
@@ -16,6 +12,7 @@ public class prime {
             return false;
 
     }
+    
 
     public static void main(String[] args) {
 

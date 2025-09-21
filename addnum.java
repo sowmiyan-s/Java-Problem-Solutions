@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class addnum {
     /**
-     * 14/07/2025- coding class- add two nummbers - sowmiyan s - 
+     * add two numbers 
      */
     public static void main(String[] args) {
             try (Scanner s = new Scanner(System.in)) {

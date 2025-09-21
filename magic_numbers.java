@@ -8,25 +8,14 @@ public class magic_numbers {
         try(Scanner s = new Scanner(System.in)){
             System.out.print("Enter a number : ");
             int n = s.nextInt();
-      
             int count=0, r;
             while(n!=0){
                 r = n%10;
                 n = n/10;
-                if(r==4 || r==7){
-                    count++;
-                }
-
-            }
-            if(count==3 || count==5){
-                System.out.println("It is a magic number");
-                
-
-            }
+                if(r==4 || r==7){count++;}}
+            if(count==3 || count==5){System.out.println("It is a magic number");}
             
-            else{
-                System.out.println("It is not a magic number");
-            }
+            else{System.out.println("It is not a magic number");}
 
         }
     }
